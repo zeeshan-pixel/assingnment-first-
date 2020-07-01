@@ -26,6 +26,7 @@ p{
     section{
         height: 500px;
         padding-bottom: 550px;
+        display: block;
     }
     .text-center{
         padding-top: 15%;
@@ -49,6 +50,8 @@ p{
     .biography-area{
         background-image: url("images/biography-bg.png");
         background-repeat: no-repeat;
+        padding-bottom: 40%;
+        background-position: center;
     }
     .bio-pic-center{
         padding-top: 5%;
@@ -58,17 +61,21 @@ p{
     .bio-text-center{
 padding-top: 15%;
     }
-    .gallary{
-        
+    .images{
+        max-width: 30%;
+        padding-right: 1.5%;
+        padding-left: 1.5%;
         float: left;
-        width: 33%;
-        height: 33%;
-        padding: 0px;
     }
-    .gallary img{
-    width: 100%;
+    .images img{
+        width: 100%;
     }
-    .main-gallary{
-        margin-left: 20px;
-        margin-right: 20px;
+    .work-text{
+        text-align: center;
+    }
+    .latest-work{
+        background-image: url("images/latest-work-bg.png");
+        background-repeat: no-repeat;
+        padding-bottom: 15%;
+        background-position: center;
     }
