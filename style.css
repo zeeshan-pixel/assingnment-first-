@@ -5,10 +5,14 @@ body{
 h1{
     font-size: 50px;
 }
+p{
+    color: dimgray;
+}
 #name-highlight{
-    color:purple;}
+    color:purple;
+    font-size: 80px;}
     .half-width{
-        width: 35%;
+        width: 40%;
         float: left;
     }
     .half-width img{
@@ -39,6 +43,18 @@ h1{
         border-radius: 5px;
         font-weight: bold;
     }
-    .space{
+    .button-space{
         padding-bottom: 5%;
+    }
+    .biography-area{
+        background-image: url("images/biography-bg.png");
+        background-repeat: no-repeat;
+    }
+    .bio-pic-center{
+padding-top: 5%;
+padding-right: 5%;
+padding-left: 5%;
+    }
+    .bio-text-center{
+padding-top: 15%;
     }
