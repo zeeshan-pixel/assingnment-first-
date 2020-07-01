@@ -19,7 +19,6 @@ p{
         width: 100%;
     }
     .header-bg{
-        border: 1px solid red;
         background-image: url("images/header-bg.png");
         background-repeat: no-repeat;
     }
@@ -80,7 +79,7 @@ p{
         background-position: center;
     }
 
-    .center-align{
+    .footer-bg{
         text-align: center;
         background-image: url("images/footer-bg.png");
         background-repeat: no-repeat;
@@ -91,15 +90,20 @@ p{
         text-align: center;
         margin-bottom: 50px;
     }
-    .xp{
-        border-radius: 5px;
+    .my-mail{
+        border-radius: 10px;
         height: 30%;
         background-color: #ec4e8b;
-        margin: 0px 200px;
+        margin: 0px 700px;
     }
-    #web p{
+    #connect p{
         color: white;
         text-align: center;
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 50px;
+    }
+    #connect h3{
+        color: white;
+        text-align: center;
+        padding-bottom: 50px;
+        font-size: x-large;
     }
