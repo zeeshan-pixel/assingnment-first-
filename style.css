@@ -51,10 +51,24 @@ p{
         background-repeat: no-repeat;
     }
     .bio-pic-center{
-padding-top: 5%;
-padding-right: 5%;
-padding-left: 5%;
+        padding-top: 5%;
+        padding-right: 5%;
+        padding-left: 5%;
     }
     .bio-text-center{
 padding-top: 15%;
+    }
+    .gallary{
+        
+        float: left;
+        width: 33%;
+        height: 33%;
+        padding: 0px;
+    }
+    .gallary img{
+    width: 100%;
+    }
+    .main-gallary{
+        margin-left: 20px;
+        margin-right: 20px;
     }
